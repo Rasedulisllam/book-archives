@@ -25,7 +25,7 @@ const displaySearchResult=(bookData,searchValue)=>{
                     <h5 class="card-title">${book.title}</h5>
                     <p class="card-text fw-bold mb-2">Author: ${book.author_name? book.author_name[0] :''}</p>
                     <p class="card-text my-0">Publisher: ${book.publisher? book.publisher[0] : ''}</p>
-                    <p class="card-text">${book.publish_date? book.publish_date[0]: ''}</p>
+                    <p class="card-text">First publish year: ${book.first_publish_year? book.first_publish_year: ''}</p>
                     </div>
                 </div>
             `
