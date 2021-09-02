@@ -16,13 +16,13 @@
             <input id="search-input" type="text" class="form-control" placeholder="Search book name" aria-label="Recipient's username" aria-describedby="button-addon2">
             <button onclick="loadSearchData()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
         </div>
-        <p>About <span id="total-result-field">0</span> results found</p>
+        <p class="text-success">About <span id="total-result-field">0</span> results found</p>
     </header>
 
     <!-- search result show section -->
     <section class="container my-5">
-        <div id="books-container" class="row row-cols-1 row-cols-md-3 g-4">
-            
+        <div id="search-result"></div>
+        <div id="books-container" class="row row-cols-1 row-cols-md-3 g-4">        
         </div>
     </section>
 
